@@ -4,7 +4,6 @@ target
 npm-debug.log*
 generated
 package-lock.json
-dist
 .vscode
 .idea
 /*.tgz
