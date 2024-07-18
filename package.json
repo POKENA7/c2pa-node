@@ -27,7 +27,7 @@
     "build:assets": "cpy src Cargo.* generated dist",
     "build:docs": "typedoc --plugin typedoc-plugin-markdown --readme none --out docs js-src/index.ts",
     "build": "run-s build:rust build:ts build:docs build:assets",
-    "postinstall": "node ./scripts/postinstall.js && npm run build",
+    "postinstall": "node ./scripts/postinstall.js && npm run build:ts",
     "download-test-certs": "node ./scripts/download-test-certs.js",
     "ci": "pnpm build && cargo test --release && jest",
     "changeset:publish": "changeset publish",
