@@ -5,7 +5,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["es2021", "ES2022.Error"],
-    "module": "ESNext",
+    "module": "Node16",
     "moduleResolution": "node",
     "noImplicitAny": true,    
     "outDir": "dist",         
