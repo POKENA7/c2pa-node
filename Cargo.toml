@@ -14,10 +14,9 @@ crate-type = ["cdylib"]
 
 [dependencies]
 async-trait = "0.1.77"
-c2pa = { version = "0.31.2", features = [
+c2pa = { version = "0.33.1", features = [
 	"fetch_remote_manifests",
 	"file_io",
-	"xmp_write",
 ] }
 futures = "0.3"
 neon = { version = "1.0.0", default-features = false, features = [
